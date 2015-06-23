@@ -1,11 +1,6 @@
 
-<dom-module is="polymer-date-picker-positioning">
-<template>
-</template>
-
   <script>
-  Polymer({
-      is: "polymer-date-picker-positioning", 
+  PositioningBehavior = {
       properties:{
           relatedTarget: String,
           opened:{
@@ -71,6 +66,6 @@
       close: function() {
           this.opened = "false";
       }
-    });
+  };
+
   </script>
-</dom-module>
